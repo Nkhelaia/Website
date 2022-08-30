@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 18px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo span{
+    margin-left: 10px;
+    color: black;
+    
+}
+.logo i{
+    color: #4682b4;
+}
+.name{
+    display: flex;
+    font-size: 20px;
+}
+.right{
+    color: #4682b4;
+    margin-left: 5px;
+}
+.state{
+    width: 100%;
+    height: 500px;
+    background: #d5e8f8;
+    display: flex;
+}
+.article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    margin-left: 70px;
+}
+.article span{
+    margin-top: 20px;
+}
+.article button{
+    width: 200px;
+    height: 35px;
+    font-size: 17px;
+    color: white;
+    background: #4682b4;
+    border: 2px solid #4682b4;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+}
+.image img{
+    width: 600px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 25px;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+}
+.img-box img{
+    width: 600px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 25px;
+}
+.box-state{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    margin-left: 70px;
+}
+.content{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1750px;
+    height: 170px;
+    background: #d5e8f8;
+}
+.one{
+    width: 700px;
+    margin-right: 100px;
+}
+.two button{
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+    color: white;
+    background: #4682b4;
+    border: 2px solid #4682b4;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    background: #d5e8f8;
+    margin-top: 100px;
+    
+}
+.active{
+    margin-left: 200px;
+}
+.active h1{
+    padding-top: 100px;
+}
+.active span{
+    margin-top: 100px;
+}
+.active ol li{
+    padding: 20px;
+}
+@media (max-width:768px) {
+    header{
+        width: 100%;
+        height: 100px;
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .logo a{
+        text-decoration: none;
+    }
+    .logo span{
+        margin-left: 10px;
+        color: black;
+        
+    }
+    .logo i{
+        color: #4682b4;
+    }
+    .name{
+        display: flex;
+        font-size: 15px;
+    }
+    .right{
+        color: #4682b4;
+    }   
+    .state{
+        width: 100%;
+        height: 800px;
+        background: #d5e8f8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .article{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+    }
+    .article h1{
+        font-size: 20px;
+    }
+    .article span{
+        margin-top: 20px;
+        font-size: 10px;
+        width: 300px;
+    }
+    .article button{
+        width: 200px;
+        height: 35px;
+        font-size: 10px;
+        color: white;
+        background: #4682b4;
+        border: 2px solid #4682b4;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+    }
+    .image img{
+        width: 350px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 25px;
+    }
+    .box{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+    }
+    .img-box img{
+        width: 300px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 25px;
+    }
+    .box-state{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+        font-size: 10px;
+    }
+    .content{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+        background: #d5e8f8;
+    }
+    .one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-right: 100px;
+        font-size: 10px;
+
+    }
+    .one h1{
+        margin-left: 100px;
+    }
+    .two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .two button{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        color: white;
+        background: #4682b4;
+        border: 2px solid #4682b4;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    .container{
+        width: 100%;
+        height: 500px;
+        background: #d5e8f8;
+        margin-top: 100px;
+        display: flex;
+        justify-content: end;
+    }
+    .active{
+        width: 100%;
+        height: 500px;
+        
+        
+    }
+    .active h1{
+        width: 400px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .active span{
+        width: 200px;
+        font-size: 7px;
+        margin-left: 15px;
+    }
+    .active ol li{
+        padding: 20px;
+        font-size: 10px;
+    }
+}    
